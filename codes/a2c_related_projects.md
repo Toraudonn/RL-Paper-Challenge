@@ -1,0 +1,99 @@
+### Projects:
+
+- [jingweiz](https://github.com/jingweiz/pytorch-rl)
+  - DQN, A3C, DoubleDQN, continuous A3C, and ACER
+  - Code (structured nicely, but hard to follow)
+    - uses visdom which is a plus
+  - Dependencies:
+    - Python 2.7
+    - PyTorch 0.2
+    - Visdom
+  - Environments:
+    - Gym
+    - Mujoco
+- [dragen1860 PPO-pytorch](https://github.com/dragen1860/PPO-Pytorch)
+  - PPO implementation 
+  - Code 
+    - easy to read, easy to follow
+  - Dependencies:
+    - Python 3
+  - Environments:
+    - RoboSchool
+- [ChenglongChen pytorch-madrl](https://github.com/ChenglongChen/pytorch-madrl)
+  - A2C, ACKTR, DQN, DDPG, PPO
+  - Code
+    - written in a modular way so that agents can be trained with different algorithms
+  - Denependcies:
+    - Python 3
+    - PyTorch
+  - Environments:
+    - Gym
+- [ChenglongChen pytorch-a2c-ppo-acktr](https://github.com/ChenglongChen/pytorch-a2c-ppo-acktr)
+  - Updated version of ikostrikov's version
+    - Okay... maybe not now
+- [ikostrikov pytorch-a2c-ppo-acktr](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr)
+  - Everyone references his implementation so this code might be the best to use
+  - worked with other hyper parameters (tuned to his liking)
+  - Dependencies:
+    - Python 3
+    - PyTorch
+    - Visdom
+    - OpenAI baselines
+  - Environments
+    - Gym
+- [voiler unreal](https://github.com/voiler/unreal)
+  - UNREAL implementation in pytorch
+  - Comments and readme written in chinese
+  - Dependencies
+    - Python 3
+    - Pytorch 0.4
+    - gym
+    - numpy
+    - cv2
+    - pygame (?)
+  - References
+    - [miyosuda unreadl](https://github.com/miyosuda/unreal)
+      - This implementation is crazy!
+- [Icswillems a2c-ppo](https://github.com/lcswillems/pytorch-a2c-ppo)
+  - Code
+    - relatively new
+    - might be easy to read
+  - Dependencies
+    - Pytorch 0.4
+  - Environments
+    - Gym
+    - Some game this person created
+- [Simple a3c](https://github.com/MorvanZhou/pytorch-A3C)
+  - Simple, short, to the point... a3c
+  - Dependencies
+    - pytorch 0.4
+    - numpy
+  - Environments
+    - gym
+- [rgilman33 baselines-A2C](https://github.com/rgilman33/baselines-A2C)
+  - Based on OpenAI's baselines 
+  - Dependencies
+    - Pytorch
+  - Referenced
+    - ikostrikov's a2c-ppo-acktr
+- [ikostrikov pytorch-a3c](https://github.com/ikostrikov/pytorch-a3c)
+  - Oldest of the old for pytorch a3c
+- [ShangtongZhang DeepRL](https://github.com/ShangtongZhang/DeepRL)
+  - Might be the most greedy project
+  - The lastest commit is recent
+  - Algorithms:
+    - Double/Dueling DQN
+    - Categorical DQN (C51)
+    - Quantile Regression DQN
+    - Continuous/Discrete Synchronous A2C
+    - Synchronous N-Step Q-Learning
+    - Deep Deterministic Policy Gradient (DDPG)
+    - Continuous/Discrete Synchronous Proximal Policy Optimization (PPO)
+    - The Option Critic Architecture (OC)
+    - Action Conditional Video Prediction
+  - Dependencies
+    - Python 3
+    - Pytorch 0.4
+  - Environments
+    - Gym
+    - Roboscholl, PyBullet
